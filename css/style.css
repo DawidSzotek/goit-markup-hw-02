@@ -7,15 +7,18 @@
     --main-text-color: #212121;
 }
 body {
+    font-family: "Raleway";
     font-family: "roboto", sans-serif;
     color: var(--main-text-color);
-    background-color: var(--body-background-color);
 }
 .navigation-menu ul {
     display: flex;
     justify-content: space-around;
     width: 254px;
     list-style: none;
+}
+.navigation-menu a {
+    padding: 32px 46px;
 }
 .navigation {
     width: 100%;
@@ -25,7 +28,6 @@ body {
     justify-content: space-around;
     align-items: center;
 }
-
 .header-nav {
     font-family: "Raleway";
     color: var(--accent-color);
@@ -34,6 +36,8 @@ body {
 }
 .logo-nav {
     font-family: "Raleway";
+    margin: 0;
+    margin: auto;
 }
 .navigation h2 {
     font-size: 26px;
@@ -48,6 +52,8 @@ body {
     font-size: 14px;
     line-height: 24px;
     color: var(--contacts-header-color);
+    padding-left: 50px;
+    margin-top: 32px;
 }
 .footer-navigation a {
     text-decoration: none;
@@ -97,8 +103,9 @@ body {
     text-align: left;
 }
 .descripion-title {
-    font-weight: 700px;
-    font-size: 14px line-height 1.14;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
 }
 .description-text {
     font-size: 14px;
@@ -214,6 +221,7 @@ body {
     border: none;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin: 0 4px;
+    padding: 6px 22px;
 }
 .button-list button:focus,
 .button-list button:hover {
